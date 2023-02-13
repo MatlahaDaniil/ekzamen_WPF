@@ -1,0 +1,111 @@
+﻿<Window x:Class="_2048.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2048"
+        mc:Ignorable="d"
+    Title="MainWindow" MinHeight="600" MinWidth="500" Height="600" Width="500" Background="Bisque" KeyDown="Window_KeyDown" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="115*"/>
+            <RowDefinition Height="469*"/>
+        </Grid.RowDefinitions>
+
+        <UniformGrid Grid.Row="0" Rows="1" >
+
+            <Border Background="LightGray" Margin="10" CornerRadius="15">
+                <StackPanel>
+                    <TextBlock HorizontalAlignment="Center" Text="Score :" FontSize="30" FontWeight="Bold"/>
+                    <TextBlock x:Name="txt_Score" HorizontalAlignment="Center"  FontSize="30" FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+
+            <Border Background="LightGray" Margin="10" CornerRadius="15">
+                <StackPanel>
+                    <TextBlock HorizontalAlignment="Center" Text="High Score :" FontSize="30" FontWeight="Bold"/>
+                    <TextBlock x:Name="txt_HightScore" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+
+        </UniformGrid>
+
+        <UniformGrid x:Name="Ug_Map" Grid.Row="1" Background="DarkGray" Margin="20,20,20,20" Columns="4" Rows="4">
+
+            <!--<Border x:Name="first_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Fbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+            
+            <Border x:Name="second_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Sbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+            
+            <Border x:Name="third_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Tbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+            
+            <Border x:Name="fourth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Fourthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Fifth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Fifthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Sixth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Sixthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Seventh_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Seventhbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Eighth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Eighthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Ninth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Ninthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Tenth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Tenthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Eleventh_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Eleventhbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Twelfth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Twelfthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Thirteenth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Thirteenthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Fourteenth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Fourteenthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Fifteenth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Fifteenthbrd" Style="{StaticResource txt_style}"/>
+            </Border>
+
+            <Border x:Name="Sixteenth_brd" Style="{StaticResource border_style}">
+                <TextBlock x:Name="txt_for_Sixteenthbrd" Style="{StaticResource txt_style}"/>
+            </Border>-->
+            
+        </UniformGrid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,84 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="TextBlock" x:Key="txt_style">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="30"/>
+    </Style>
+
+    <Style x:Key="border_style" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="Gray"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_2" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="#E3DACB"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_4" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="Beige"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_8" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="#ECB961"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_16" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="Orange"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_32" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="LightBlue"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_64" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="Aquamarine"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_128" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="Blue"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_256" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="Magenta"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_512" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="DarkMagenta"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_1024" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="DarkRed"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="border_style_for_text_2048" TargetType="Border">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Background" Value="Navy"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+
+</ResourceDictionary>
